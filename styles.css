@@ -426,6 +426,63 @@ body::before {
     transform: scale(1.1);
 }
 
+.projects-section {
+    padding: 4rem 2rem;
+    background: #0a0a0a;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project-card {
+    background: #1a1a1a;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.4);
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #ccc;
+  }
+  
+  .project-buttons a {
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 0.6rem 1rem;
+    background: #00ffff;
+    color: #000;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .project-buttons a:hover {
+    background: #00cccc;
+  }
+  
 
 
 
